@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>盒子模型</title>
+
+    <style>
+        html, body {
+            padding: 0;
+            margin: 0;
+        }
+
+        .box, .line {
+            /* 外边距 */
+            margin: 30px; 
+            /* 边框 */
+            border: 10px solid #333;
+            /* border-width: 20px;
+            border-style: solid;
+            border-color: #333; */
+            /* 内边距 */
+            padding: 40px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="box">
+        盒子 块级
+    </div>
+
+
+    <span class="line">
+        文本1 
+        行级
+    </span>
+
+
+    <div>
+        布局方式
+    </div>
+    <ul>
+        <li>flex 布局 √</li>
+        <li>position 定位</li>
+        <li>Float 浮动</li>
+        <li>vh vw 百分比</li>
+    </ul>
+</body>
+</html>
